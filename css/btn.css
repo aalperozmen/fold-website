@@ -1,0 +1,31 @@
+.btn-aqua {
+  color: #1e266d;
+  background-color: aqua;
+  display: inline-block;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #1e266d;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn-started {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-request {
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  display: block;
+  text-align: center;
+}

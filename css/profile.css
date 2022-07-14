@@ -1,0 +1,32 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 150px;
+}
+
+.profile .profile-item {
+  padding: 80px 120px;
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.profile .profile-item img,
+.profile .profile-item h2,
+.profile .profile-item p {
+  margin-bottom: 20px;
+}
+
+.profile .profile-item h6 {
+  margin-top: 15px;
+}
+
+.profile .profile-item h2 {
+  color: #364655;
+}
+
+.profile .profile-item img {
+  border-radius: 50%;
+}

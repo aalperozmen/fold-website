@@ -1,0 +1,35 @@
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: monospace;
+  margin-right: 80px;
+  padding-bottom: 30px;
+}
+
+.data img {
+  width: 550px;
+}
+
+.data .data-text {
+  text-align: center;
+  padding: 20px;
+}
+
+.data .data-text h4 {
+  color: #607d9c;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.data .data-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.data .data-text p {
+  color: #818198;
+  font-size: 14px;
+  margin-bottom: 20px;
+}

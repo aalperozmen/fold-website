@@ -1,0 +1,28 @@
+.start-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px 250px;
+  text-align: center;
+}
+
+.start-project h3,
+.start-project p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.start-project h3 {
+  font-size: 20px;
+}
+
+.start-project p {
+  font-size: 22px;
+  color: white;
+}
+
+.start-project a {
+  font-weight: 600;
+}

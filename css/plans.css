@@ -1,0 +1,57 @@
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 50px;
+}
+
+.plans .basic,
+.plans .premium {
+  border-radius: 30px;
+  margin: 10px;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.plans .premium {
+  color: white;
+}
+
+.plans .tick-text {
+  margin-bottom: 20px;
+}
+
+.plans h2,
+.plans h3,
+.plans h4,
+.plans .plan-btn {
+  text-align: center;
+}
+.plans .tick,
+.plans p {
+  display: inline-block;
+}
+
+.plans .tick {
+  width: 25px;
+  position: relative;
+  top: 9px;
+}
+
+.plans .plan-btn {
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.plans h2 {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.plans h4 {
+  margin-bottom: 20px;
+}

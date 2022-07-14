@@ -1,0 +1,86 @@
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav a {
+  color: white;
+  transition: 0.4s all;
+  padding: 10px 10px;
+  margin: 20px 10px;
+}
+
+.header-nav a:hover {
+  color: #1e266d;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.header-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-icon {
+  font-size: 20px;
+}
+
+.header-row h4,
+.header-row h1,
+.header-row p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.header-col1 {
+  padding: 60px 70px 50px 17px;
+}
+
+.header-col1 h4 {
+  font-size: 20px;
+}
+
+.header-col1 h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.header-col1 p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.header-col2 {
+  background-color: white;
+  padding: 5px 10px 10px;
+  margin: 10px 15px 25px 0;
+  border-radius: 10px;
+}
+
+.header-col2 form {
+  padding: 20px 35px 35px 35px;
+  width: 100%;
+}
+
+.header-col2 .form-div {
+  margin-top: 12px;
+}
+
+.header-col2 form .form-div input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px 250px 10px 10px;
+  margin: 4px 0;
+}
+
+.header-col2 form .form-div textarea {
+  width: 100%;
+  margin-top: 3px;
+}

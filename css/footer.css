@@ -1,0 +1,29 @@
+.footer {
+  padding: 20px 0;
+}
+
+.footer,
+.footer-menu,
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer ul li {
+  padding: 20px 15px;
+  transition: 0.3s all;
+}
+
+.footer ul li:hover {
+  opacity: 0.4;
+}
+
+.footer img {
+  width: 25px;
+}
+
+.footer h2,
+.footer a {
+  color: white;
+}

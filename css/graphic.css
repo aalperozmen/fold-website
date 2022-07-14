@@ -1,0 +1,50 @@
+.graphic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.graphic-col-1 {
+  margin-right: 100px;
+}
+
+.graphic-col-1 h4,
+.graphic-col-1 h2 {
+  margin-bottom: 20px;
+}
+
+.graphic-col-1 h4 {
+  color: #607d9c;
+  font-size: 13px;
+}
+
+.graphic-col-1 h2 {
+  color: #445555;
+  font-size: 30px;
+}
+
+.graphic-col-1 .content-tick {
+  margin: 20px 0px 30px;
+}
+
+.graphic-col-1 .tick,
+.graphic-col-1 p {
+  display: inline-block;
+}
+
+.graphic-col-1 .tick {
+  width: 25px;
+  position: relative;
+  top: 8px;
+}
+
+.graphic-col-1 a {
+  font-weight: 600;
+}
+
+.graphic-col-2 img {
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+}
